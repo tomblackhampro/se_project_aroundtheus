@@ -1,0 +1,40 @@
+.card {
+  width: 282px;
+  height: 361px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.card__image {
+  height: 282px;
+  width: 282px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card__description {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  font-family: 'Inter', 'sans-serif';
+  font-weight: 900;
+  font-size: 24px;
+  margin: 0;
+  padding: 25px 20px;
+}
+
+.card__title {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.card__heart {
+  height: 18px;
+  width: 21px;
+}
+
+.card__heart:hover {
+  opacity: 0.5;
+}
