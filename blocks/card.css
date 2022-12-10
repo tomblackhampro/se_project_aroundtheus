@@ -1,6 +1,5 @@
 .card {
   width: 282px;
-  height: 361px;
   background-color: white;
   border-radius: 10px;
   margin: 0;
@@ -15,13 +14,12 @@
 
 .card__description {
   display: flex;
-  list-style-type: none;
   justify-content: space-between;
   font-family: 'Inter', 'sans-serif';
   font-weight: 900;
   font-size: 24px;
   margin: 0;
-  padding: 25px 20px;
+  padding: 0 20px;
 }
 
 .card__title {
@@ -31,6 +29,7 @@
 }
 
 .card__heart {
+  align-self: center;
   height: 18px;
   width: 21px;
 }
