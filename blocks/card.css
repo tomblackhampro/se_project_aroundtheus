@@ -28,12 +28,16 @@
   overflow: hidden;
 }
 
-.card__heart {
+.card__button {
   align-self: center;
   height: 18px;
   width: 21px;
+  border: none;
+  background: none;
+  margin-bottom: 11px;
+  padding: 0;
 }
 
-.card__heart:hover {
+.card__button:hover {
   opacity: 0.5;
 }
