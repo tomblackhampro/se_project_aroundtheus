@@ -15,17 +15,19 @@
 .card__description {
   display: flex;
   justify-content: space-between;
-  font-family: 'Inter', 'sans-serif';
-  font-weight: 900;
-  font-size: 24px;
   margin: 0;
   padding: 0 20px;
+  
 }
 
 .card__title {
+  font-family: 'Inter', 'sans-serif';
+  font-weight: 900;
+  font-size: 24px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  margin: 25px 0;
 }
 
 .card__button {
@@ -34,7 +36,6 @@
   width: 21px;
   border: none;
   background: none;
-  margin-bottom: 11px;
   padding: 0;
 }
 

@@ -1,12 +1,10 @@
 .profile {
   max-width: 880px;
   display: flex;
-  margin: auto;
   color: white;
-  padding: 40px 0 51px 0;
+  margin: 40px auto 51px auto;
   align-items: center;
   font-family: 'Inter', sans-serif;
-  flex: 1;
 }
 
 .profile__avatar {
@@ -17,8 +15,8 @@
 }
 
 .profile__info {
-  padding: 0 0 0 30px;
-  margin: 0;
+  margin: 0 0 0 30px;
+  max-width: 50%;
 }
 
 .profile__info-title {
@@ -27,14 +25,13 @@
 }
 
 .profile__title {
-  max-width: 373px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
   font-size: 42px;
   font-weight: 500;
   margin: 0;
-  padding: 0 18px 0 0;
+  padding: 0;
   line-height: 1.2;
 }
 
@@ -47,6 +44,7 @@
   align-items: center;
   position: relative;
   background: transparent;
+  margin: 0 0 0 18px;
 }
 
 .profile__rectangle-edit:hover {
@@ -92,17 +90,27 @@
   line-height: 1.2;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1268px) {
-  .profile__title {
-    max-width: 80%;
+
+@media (max-width: 1114px) {
+  .profile__info-title{
+  }
+ .profile__title {
    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1000px) {
+  .profile__info{
+    max-width: 20%;
+  }
   .profile__title {
    font-size: 30px;
-   max-width: 250px;
   }
+}
+
+@media screen and (min-width: 768px) and (max-width: 800px) {
+  .profile__title {
+    font-size: 25px;
+   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
@@ -119,7 +127,6 @@
 
   .profile__title {
     font-size: 22px;
-    width: 196px;
     padding-bottom: 14px;
   }
   .profile__info {
